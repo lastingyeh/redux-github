@@ -13,6 +13,9 @@ const GithubBox = props => (
         avatar={props.data.get('avatar_url')}
       />
       <CardText>
+        Repositories : {props.data.get('public_repos')}
+      </CardText>
+      <CardText>
         Followers : {props.data.get('followers')}
       </CardText>
       <CardText>
